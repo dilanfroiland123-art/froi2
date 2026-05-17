@@ -1,0 +1,117 @@
+/* 
+  Froiland Dilan CV - Custom Styles
+  Extracted for better security (CSP A+ Grade)
+*/
+
+body { 
+    font-family: 'Arial', sans-serif; 
+    color: #333; 
+    line-height: 1.5; 
+    background-color: #f0f2f5; 
+    margin: 0; 
+    padding: 0; 
+}
+
+#resume-content { 
+    background-color: #fff; 
+    width: 8.5in; 
+    min-height: 11in; 
+    margin: 0 auto; 
+    padding: 0.5in 0.6in; 
+    box-sizing: border-box; 
+    position: relative;
+}
+
+h1 { 
+    font-size: 28px; 
+    font-weight: bold; 
+    margin-bottom: 4px; 
+    color: #000; 
+    text-transform: uppercase; 
+    text-align: center; 
+    letter-spacing: 2px; 
+}
+
+.contact-info { 
+    font-size: 11px; 
+    margin-bottom: 20px; 
+    border-bottom: 2px solid #000; 
+    padding-bottom: 10px; 
+    text-align: center; 
+}
+
+.contact-info span { 
+    margin: 0 10px; 
+}
+
+h2 { 
+    font-size: 16px; 
+    font-weight: bold; 
+    margin-top: 20px; 
+    margin-bottom: 12px; 
+    border-bottom: 1.5px solid #000; 
+    padding-bottom: 3px; 
+    color: #000; 
+    text-transform: uppercase; 
+}
+
+h3 { 
+    font-size: 14px; 
+    font-weight: bold; 
+    margin-bottom: 2px; 
+}
+
+.sub-header { 
+    display: flex; 
+    justify-content: space-between; 
+    font-weight: bold; 
+    font-size: 13px; 
+    margin-bottom: 2px; 
+}
+
+.company-info { 
+    font-style: italic; 
+    font-size: 13px; 
+    margin-bottom: 6px; 
+    color: #444; 
+}
+
+ul { 
+    margin-top: 4px; 
+    margin-bottom: 12px; 
+    padding-left: 20px; 
+}
+
+li { 
+    font-size: 12px; 
+    margin-bottom: 5px; 
+    line-height: 1.4; 
+}
+
+.skills-grid { 
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+
+.skill-category { 
+    font-weight: bold; 
+    font-size: 13px; 
+    margin-bottom: 4px; 
+}
+
+.skill-list { 
+    font-size: 12px; 
+}
+
+@media print {
+    body { background-color: #fff; }
+    .no-print { display: none; }
+    #resume-content { 
+        width: 8.5in; 
+        height: 11in; 
+        padding: 0.5in 0.6in; 
+        margin: 0; 
+        box-shadow: none; 
+    }
+}
